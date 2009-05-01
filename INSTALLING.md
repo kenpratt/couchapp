@@ -14,13 +14,13 @@ You may need to satisfy some dependencies. We hope this will happen automaticall
 
 You may encounter an error resembling this when installing on OS X Leopard:
 
-   No eggs found in /tmp/easy_install-s_Hq0s/simplejson-2.0.4/egg-dist-tmp-LjhqW1
+    No eggs found in /tmp/easy_install-s_Hq0s/simplejson-2.0.4/egg-dist-tmp-LjhqW1
 
 If so, there is a problem with your `setuptools` library (the version included with Python 2.5 on OS X is broken). To upgrade:
 
-   sudo easy_install "http://pypi.python.org/packages/2.5/s/setuptools/setuptools-0.6c9-py2.5.egg#md5=fe67c3e5a17b12c0e7c541b7ea43a8e6"
+    sudo easy_install "http://pypi.python.org/packages/2.5/s/setuptools/setuptools-0.6c9-py2.5.egg#md5=fe67c3e5a17b12c0e7c541b7ea43a8e6"
 
-(or download the .egg corresponding to your version of Python from [the setuptools page](http://pypi.python.org/pypi/setuptools) and `easy_install` that).
+(or download the `.egg` corresponding to your version of Python from [the setuptools page](http://pypi.python.org/pypi/setuptools) and `easy_install` that).
 
 ## Questions and Comments
 
